@@ -7,7 +7,7 @@ package studentlist;
 
 /**
  *
- * @author Ronak Seot 2020
+ * @author Ronak Sept 2020
  */
 public class Student {
     
