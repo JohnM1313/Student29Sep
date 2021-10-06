@@ -12,6 +12,11 @@ package studentlist;
 public class PartTimeStudent extends Student{
     private int numOfCourses;
 
+    public PartTimeStudent(int numOfCourses, String studentId, String studentName, String address) {
+        super(studentId, studentName, address);
+        this.numOfCourses = numOfCourses;
+    }
+    
     public int getNumOfCourses() {
         return numOfCourses;
     }
